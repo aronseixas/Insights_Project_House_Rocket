@@ -150,21 +150,68 @@
     
     Conditions:
         1- If the purchase price is higher than the median of the season, the sale price will be increased by 10%.
-        2- If the purchase price is below the median of the season, the sale price will be increased by 30%.
-      
-
-
-
-
-
+        2- If the purchase price is below the median of the season, the sale price will be increased by 30%.      
 
 # 5. Exploratory data analysis (EDA)
 
+## 5.1 - Hypothesis test
+
+<b> H1: </b> Waterfront properties are 30% more expensive, on average.  
+<b> False: </b> Waterfront properties are, on average, <b> 212.42% </b> more expensive.  
+![image](https://user-images.githubusercontent.com/95039795/168894918-9803f4d3-2ee8-4fb6-a7dc-6a7db3a07446.png)  
+
+<b> H2: </b> Buildings older than 1955 are 50% cheaper on average.  
+<b> False: </b> The building built before 1955 are 1.64% cheaper than those built after 1955.  
+![image](https://user-images.githubusercontent.com/95039795/168896240-dd5223d0-839d-4b2a-97c6-0ce5dd91dc53.png)  
+
+<b> H3: </b> Properties without a basement have a total area (sqrt_lot) 40% larger than properties with a basement.   
+<b> False: </b> The buildings with no basement are 22.79%  more expensive than those that have basement.  
+![image](https://user-images.githubusercontent.com/95039795/168896581-e6279ead-e344-4729-a169-6657e734875e.png)  
+
+<b> H4: </b> YoY (Year over Year) property price growth is 10%.  
+<b> False: </b> The price growths between 2014 and 2015 is 0.70%.  
+![image](https://user-images.githubusercontent.com/95039795/168896763-e43cd5f3-7ab9-42f9-899b-98dd256ed163.png)  
+
+<b> H5: </b> Homes with 3 bathrooms have a 15% MoM (Month over Month) growth.  
+<b> False: </b> The largest positive variation was <b> 13,73%. </b>  
+![image](https://user-images.githubusercontent.com/95039795/168899180-6a2cad31-6e20-4e57-be52-2988a607496a.png)   
+![image](https://user-images.githubusercontent.com/95039795/168899597-2aee847a-4133-45db-9e1c-00f4d4c45153.png)   
+   
+<b> H6: </b> Homes sold in winter are 50% cheaper than in other seasons.   
+<b> False: </b>  The houses price in winter are <b>3.92%</b> cheaper.    
+![image](https://user-images.githubusercontent.com/95039795/168899270-0b9ebd5e-6938-4c0f-aeef-80a537939bde.png)  
+
+<b> H7: </b> Reformed homes are 50% cheaper than not reformed homes.  
+<b> False: </b> Renovates houses are <b> 43.53% </b> cheaper.   
+![image](https://user-images.githubusercontent.com/95039795/168899485-e245ab03-14be-41ef-8593-35b937fbaa9a.png)  
+
 # 6. Business Results
 
-# 7. Conclusions
+In all portfolio, the number of houses suggested for purchase is 17.62%.  
+![image](https://user-images.githubusercontent.com/95039795/168906520-15c74ece-6635-404c-88a0-609b3a593f27.png)
 
-# 8. Next steps
+Assuming all suggested homes have been bought and sold. 
 
+The restults are:  
 
+<table border="1">
+    <tr>
+        <td>Total investiment:</td>
+        <td>$ 1483423213.00</td>
+    </tr> 
+    <tr>
+        <td>Sales revenue:</td>
+        <td>$ 1631765534.30</td>
+    </tr> 
+    <tr>
+        <td>Profit:</td>
+        <td>$ 148342321.30</td>
+    </tr> 
+</table>
 
+![image](https://user-images.githubusercontent.com/95039795/168906690-efe5c406-e574-4c36-b68c-b169c1e4cf12.png)
+
+# 7. Next steps
+
+  - Develop more robust methods for handling outliers.  
+  - Apply machine learning methods to find better opportunities based on more features.
